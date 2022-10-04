@@ -1,186 +1,3 @@
-/* * {
-	outline: 2px solid tomato;
-} */
-
-:root {
-	--primary-text-color: #212121;
-	--secondary-text-color: #757575;
-	--white-text-color: #ffffff;
-	--accent-color: #2196f3;
-	--black-logo-color: #000000;
-	--footer-text-color: #ffffff99;
-	--white-background-color: #ffffff;
-	--hero-background-color: #2f303a;
-	--team-background-color: #f5f4fa;
-	--icon-color: #afb1b8;
-}
-
-body {
-	font-family: "Roboto", sans-serif;
-	letter-spacing: 0.03em;
-	background-color: var(--white-background-color);
-	color: var(--primary-text-color);
-}
-
-/* глобальный сброс margin, padding */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
-
-.container {
-	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-/* удаляю точки списков */
-.list {
-	list-style: none;
-}
-
-/* удаляю подчеркивание ссылок */
-.link {
-	text-decoration: none;
-}
-
-/* удаляю скрытые заголовки */
-.visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	padding: 0;
-	overflow: hidden;
-	border: 0;
-	clip: rect(0 0 0 0);
-}
-
-/* Header content */
-.header {
-	border-bottom: 1px solid #ececec;
-}
-
-.header-container {
-	display: flex;
-	align-items: center;
-}
-
-.header-nav {
-	display: flex;
-	align-items: center;
-}
-
-.site-nav {
-	display: flex;
-	margin-left: 93px;
-}
-
-.site-nav-item:not(:first-child) {
-	margin-left: 50px;
-}
-
-.contact-nav.list {
-	display: flex;
-	margin-left: auto;
-}
-
-.contact-nav-item:not(:first-child) {
-	margin-left: 50px;
-}
-
-.logo {
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-	color: var(--accent-color);
-}
-
-.logo-black {
-	color: var(--black-logo-color);
-}
-
-.site-nav .link {
-	display: block;
-	padding-top: 32px;
-	padding-bottom: 32px;
-
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-	color: inherit;
-
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact-nav .link {
-	display: inline-flex;
-	align-items: center;
-	padding-top: 32px;
-	padding-bottom: 32px;
-
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-	color: var(--secondary-text-color);
-
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus,
-.contact-nav .link:hover,
-.contact-nav .link:focus {
-	color: var(--accent-color);
-}
-
-.site-nav .link.current {
-	position: relative;
-
-	color: var(--accent-color);
-}
-
-.site-nav .link.current::after {
-	position: absolute;
-	display: block;
-	content: "";
-	width: 100%;
-	height: 4px;
-	border-radius: 2px;
-	bottom: -1px;
-	background-color: var(--accent-color);
-}
-
-.section-title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.17;
-	text-align: center;
-}
-
-.contact-icon {
-	margin-right: 10px;
-	fill: currentColor;
-}
-
 /* Hero */
 .hero {
 	padding-top: 200px;
@@ -243,6 +60,8 @@ img {
 }
 
 /* Benefits */
+
+
 .benefits {
 	padding-top: 94px;
 	padding-bottom: 94px;
@@ -288,6 +107,8 @@ img {
 }
 
 /* what we do */
+
+
 .work-section {
 	padding-bottom: 94px;
 }
