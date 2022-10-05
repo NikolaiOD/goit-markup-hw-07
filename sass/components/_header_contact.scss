@@ -25,7 +25,6 @@
 }
 
 .header-contact__link {
-
     &:hover,
     &:focus {
         color: $accent-color;
@@ -34,5 +33,6 @@
 
 .header-contact__icon {
     margin-right: 10px;
+    
     fill: currentColor;
 }
